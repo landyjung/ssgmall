@@ -43,7 +43,7 @@ function Header(){
   return(
     <header id="main_header">
       <div className="innerbox">
-        <h1><Link to="/"><img src="/images/logossg.png" alt="ssglandersLogo" onClick={handleMobileLinkClick} /></Link></h1>
+        <h1><Link to="/"><img src={`${process.env.PUBLIC_URL}}/images/logossg.png`} alt="ssglandersLogo" onClick={handleMobileLinkClick} /></Link></h1>
         <nav className="main-navbar">
           <ul>
             <li><Link to="/category/COLLABOLATION" >COLLABOLATION</Link></li>

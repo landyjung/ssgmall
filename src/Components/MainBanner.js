@@ -5,10 +5,10 @@ import 'swiper/css/effect-fade';
 
 function MainBanner(){
   const mainBanners=[
-    {id:1, src:'/images/temp_topbanner01.png', alt:'main banner1'},
-    {id:2, src:'/images/temp_topbanner02.png', alt:'main banner2'},
-    {id:3, src:'/images/temp_topbanner03.png', alt:'main banner3'},
-    {id:4, src:'/images/temp_topbanner04.png', alt:'main banner4'},
+    {id:1, src:`${process.env.PUBLIC_URL}/images/temp_topbanner01.png`, alt:'main banner1'},
+    {id:2, src:`${process.env.PUBLIC_URL}/images/temp_topbanner02.png`, alt:'main banner2'},
+    {id:3, src:`${process.env.PUBLIC_URL}/images/temp_topbanner03.png`, alt:'main banner3'},
+    {id:4, src:`${process.env.PUBLIC_URL}/images/temp_topbanner04.png`, alt:'main banner4'},
   ]
   return(
     <section className="main-banner">

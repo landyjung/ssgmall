@@ -4,7 +4,7 @@ function MainBottom(){
     return(
         <section className="main_bottom">
             <div className="fullBanner">
-                    <img src="/images/full_bnn.jpg" alt="landers infielder park sung han" />                
+                    <img src={`${process.env.PUBLIC_URL}/images/full_bnn.jpg`} alt="landers infielder park sung han" />                
             </div>
             <div className="content_bottom">
                 <div className="bot1">

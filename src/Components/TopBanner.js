@@ -7,9 +7,9 @@ import 'swiper/css/effect-fade';
 function TopBanner(){
   const topbanners = [
     // `${process.env.PUBLIC_URL}/images/~.jpg`
-    {src:'/images/topbanner1.jpg', alt:'topbanner alt1'},
-    {src:'/images/topbanner2.jpg', alt:'topbanner alt2'},
-    {src:'/images/topbanner5.jpg', alt:'topbanner alt5'}
+    {src:`${process.env.PUBLIC_URL}/images/topbanner1.jpg`, alt:'topbanner alt1'},
+    {src:`${process.env.PUBLIC_URL}/images/topbanner2.jpg`, alt:'topbanner alt2'},
+    {src:`${process.env.PUBLIC_URL}/images/topbanner5.jpg`, alt:'topbanner alt5'}
   ]
   return(
     <div className="top-banner">
